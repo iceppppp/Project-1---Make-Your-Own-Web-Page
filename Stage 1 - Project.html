@@ -1,0 +1,267 @@
+<!DOCTYPE HTML SYSTEM>
+<html>
+<head>		
+	<link rel="stylesheet" type="text/css" href="Stage 1 - Project_Style II.css">
+		<title>Stage 1 - Project</title>
+	</head>
+<body>
+	<h1>Stage 1 - Project</h1>
+<div class="lesson-border">
+	<h2>Lesson 1: The Basics of the Web and HTML</h2>
+   <div class="concept">
+	<div>
+		<div class="concept-description">
+			<p>
+				This course is a combination of pieces from two other Udacity classes - <span class="bold">"Web Development"</span> and <span class="bold">"Introduction to HTML and CSS".</span>
+			<p>
+  				These links; <a href="scratchpad.io">Scratchpad</a> & <a href="codepen.io">Codepen</a> are useful sites for practicing HTML, CSS & JS coding.
+  			</p>
+<div>
+  	<div class="concept-title">
+		<h3><u>The Web</u></h3>
+	</div>
+<p>
+	The web is a collection of digital files, hosted on multiple servers. Web-Browsers (Internet Explorer, Firefox, Chrome etc) are the most commonly used GUI interfaces for navigating (surfing) the web.
+<p>
+	<span class="bold">HTTP:</span> is the most common protocol used by web-browsers to request specific files from the multitude of servers around the world.
+<p>
+	<span class="bold">HTML:</span> is the standard language used to create web pages. There are reportedly over <span class="bold">30 billion</span> pages/documents out there. HTML Documents, and their related structures, can be analyzed using the following parameters;
+<p>
+	<ul>
+		<li><em>The Doctype</em> - What kind of HTML this is.
+		<li><em>The head</em> includes metadata, CSS and Java, and the title of the page, which appears on the top of the browser window.
+    	<li><em>The body</em> - is the actual contents of the document.
+		<li><em>Text content</em> - what you see.
+		<li>Referecnes to other docs; e.g videos, images etc. 
+		<li>Links to other pages.
+		<li><em>Markup</em> - what it looks like. Also called 'tags', these are machine instructions for the browser to interprete/present the files retrieved from the remote servers to the end-user/web-surfer in the manner envisioned by the creator/originator of the HTML document.
+		<li>The opening and closing HTML tags surround elements of the document.
+	</ul>
+</div> 
+</div>
+<div>
+  	<div class="concept-title">
+		<h3><u>Tags</u></h3>
+	</div>
+<div>
+<div class="concept-description">
+	<p>
+	 An HTML tag is always contained within angled brackets. "void" tags do not require a closing tag (e.g. &lt;br&gt;). Tags, and their related <em><b>'elements'</b></em> [ie values within a set of opening and closing tags] can be categorized into; <em>Inline</em> and <em>Block </em>elements. 
+	 <p>
+		<span class="bold">Inline elements:</span> &lt;b&gt;, &lt;em&gt;, &lt;a&gt;, &lt;br&gt;, &lt;span&gt;, &lt;img&gt;,<br> 
+		<span class="bold">Block elements:</span> &lt;p&gt;, &lt;div&gt;, &lt;form&gt;.<br><br> 
+
+			Some of these elements are described below, along with possible uses;<br> 
+			<ul>
+				<li><span class="bold"><u>bold :</u></span> &lt;b&gt;value&lt;/b&gt;  
+				<li><em><u>italics </u></em>: &lt;em&gt;value&lt;/em&gt;. or  &lt;em&gt;&lt;b&gt;value&lt;/b&gt;&lt;/em&gt; <span class="italic">[tag within a tag]</span>.
+				<li><u>ancor :</u> &lt;a href="url"&gt;value&lt;/a&gt;  <span class="italic">eg  This website is &lt;a href="www.udacity.com"&gt;my favorite&lt;/a&gt;</span>.
+				<li><u>image :</u> &lt;img&gt; does not need closing tag <span class="italic">[a type of Void tag]</span>. Always add 'alternate text' in case image is missing/broken.	eg  &lt;img src="url" alt="sorry"&gt;
+				<li><u>break :</u> &lt;br&gt; for page break. <span class="italic">[also a type of Void tag]</span>.
+  				<li><u>paragraph :</u> &lt;p&gt; value &lt;/p&gt;
+  			</ul>
+		</div>
+	</div>
+	</div>
+	<div>
+</div>
+</div>
+</div>
+<div class="concept">
+	<div class="concept-title">
+		<h3>Some helpful tips:</h3> 
+	</div>
+<div class="concept-description">
+	<p>
+		-Close the tag element syntax [ie &lt;/b&gt;] otherwise everything after will have the same properties.<br> 
+		-It's advisable to type both opening AND closing tag at the start of the line of code.<br> 
+		-<span class="italic"><span class="bold">Whitespace</span></span> assumes everything is on one line. Tag elements are needed to force breaks, paragraphs, etc.<br>
+		-<span class="italic">Block elements</span> create "invisible boxes".<br>
+		-<span class="italic">Attribute </span>: This is a property of an HTML element.
+	</div>
+</div>
+</div> 
+<div class="lesson-border">
+	<h2>Lesson 2: Creating a Structured Document with HTML</h2>
+<div class="concept">
+	<div class="concept-title">
+		<h3><u>The way websites work</u></h3>
+	</div>
+		<div>
+			<div class="concept-description">
+				<p>
+					Different types of languages constitute the framework of an web page;
+					<ul>
+						<li><span class="bold">HTML :</span> Used for Structure. This is the standard markup language used to create web pages.
+						<li><span class="bold">CSS [Cascading Style Sheets] :</span> Used for Styling or describing the look and formatting of a document written in a markup language. In other words; CSS controls the "style" of a page (how it looks).
+						<li><span class="bold">Java script :</span> Used to create interactive compnents.
+					</ul>
+				All three have basic syntax and rules of operation.<br>
+			</div>
+		<div>
+	<div class="concept-title">
+		<h3><u>Inner structure of a web site</u></h3>
+	</div>
+		<div class="concept-description">
+			<p>
+				-Not all elements are visivble in web page 'structure'.eg head elements.
+				<p>
+				-Text on page are visible within the structure.
+				<p>
+				-All elements appear within boxes.
+				<p>
+				-The structure helps the browser understand/interprete how the page is supposted troi be displayed for the web viewer/end-user.
+			</div>
+		<div>
+	<div class="concept-title">
+		<h3><u>Tree-like structure of HTML</u></h3>
+	</div>
+		<div class="concept-description">
+			<p>
+				Elements in an HTML document are organized in a "tree-like structure", called the DOM <em>[Document Object Model]</em> tree. That is, the HTML elements can have other elements inside of them. You can draw this relationship like a family tree. In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="concept">
+	<div class="concept-title">
+		<h3>Some related terms:</h3> 
+	</div>
+<div class="concept-description">
+	<p>
+		-<span class="italic">Boxify</span> : To boxify a design, is to put html objects/elements into container boxes within the page structure.
+		<p>
+		-<span class="italic">Class Attributes</span> : These give tags a label for the programmer or browsers to understand what the box is for.
+	</div>
+</div>
+</div> 
+<div class="lesson-border">
+	<h2>Lesson 3: Adding CSS Style to HTML Structure</h2>
+		<div class="concept">
+			<div class="concept-title">
+				<h3><u>CSS [Cascading Style Sheets]</u></h3>
+			</div>
+		<div>	
+	<div class="concept-description">
+		<p>
+			This programming language allows programmers to, not only bring style to plain html documents, but also to minimize repetition while writing code through use of selectors and other functionality.
+		</div>
+	<div>
+<div class="concept-title">
+	<h3><u>Selectors</u></h3>
+	</div>
+<div>
+	<div class="concept-description">
+		<p>
+			These are the biggest key to understanding CSS. They define what elements of a page a particular style will apply to. They allow you to target specific HTML elements and apply style to them.
+		<p>
+			-Here's a quick example;
+		<p>
+			<span class="italic">
+			h1 {<br>
+  			background-color : black;
+  			color: white;<br>
+			}
+		</span>
+<br><br>
+	<p>
+		<span class="bold">In the above sample syntax;</span>
+			<p>
+				-<em>h1</em> is the selector.
+			<p>
+			-Everything between these curly braces will be interpreted as a "rule" that should be applied to every h1 element.
+			<p>  
+			-The line of code that says <em>background-color</em> : <span class="bold">black</span>; is a rule.
+			<p>
+			-<em>'background-color'</em> is an attribute and <em>black</em> is the value of that attribute.
+		</div>
+	</div>
+</div>
+<div>
+	<p>
+	<div class="concept-title">
+		<h3><u>Three ways to include CSS Styling in my web page;</u></h3>
+	</div>
+<div class="concept-description">
+	<div>
+		<p>
+			<span class="bold">Method 1:</span> write CSS within the &lt;head&gt; of your HTML. ie At the top of your HTML document, add a &lt;head&gt; element and write the style syntax within it.
+		<p>
+			<span class="bold">Method 2:</span> Link your HTML to a separate CSS file [NOTE: Both files MUST be in the same folder].
+		<p>
+			<span class="bold">Method 3:</span> Write your style inline with your HTML. ie Inside the html &lt;body&gt;. This is generally a very bad idea because it leads to lots of repeated code. But you may see code that uses this method so it's good to be familiar with it.
+	</div>
+		<p>
+			<em>Below are some links that provide helpful hints about using CSS selectors and other functionality;</em>
+				<ul>
+					<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS References.</a>
+					<li><a href="http://css-tricks.com/how-css-selectors-work/">CSS Selectors.</a>
+				</ul>	
+			</div>
+		</div>
+	</div>
+</div>
+<div class="concept">
+	<div class="concept-title">
+		<h3>Some related terms and helpful tips:</h3> 
+	</div>
+<div class="concept-description">
+	<p>
+		<span class="bold">Comments :</span> These are lines of text that the computer ignores. They are just there so that programmers can leave notes for other people (or themselves) to read.
+			<ul>
+   				<li>In HTML, code comments begin with &lt;!-- and end with --&gt;. [Everything in between is ignored].
+   				<li>In CSS, code comments begin with /* and end with */. [Everything in between is ignored].
+   			</ul>
+		<div>
+			<span class="bold">Box Sizing :</span>
+				There are two techniques you can use to help deal with sizing issues.
+			<ul>
+  				<li>Set sizes in terms of percents rather than pixels.
+   				<li>Set the box-sizing attribute to border-box for every element.
+			</ul>
+		<span class="bold">Box Positioning :</span>
+			<ul>
+				<li><b>divs</b> are block elements and take up the entire width of a page default.
+				<li>Adding the rule <em>'display: flex;'</em> to the appropriate CSS will override this behavior and let divs appear next to each other.
+			</ul>
+		<span class="bold">Code Repetition :</span> Avoiding unnecessary code repetition allows for;
+			<ul>
+				<li>Easier and more efficient writing of your code.
+				<li>Easier and faster reading of your code.
+				<li>Easier, faster and more efficient process of making changes/modiifications to the code, if needed.
+			</ul>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="lesson-border">
+	<div class="concept">
+		<div class="concept-title">
+  			<h3><u>Code > Test > Refine</u></h3> 
+		</div>
+	<div>
+		<div class="concept-description">
+    		Finally, here are some to help you along as you write your code;
+  			<ul>
+    			<li>Look for natural boxes.
+    			<li>Look for repeated styles and semantic elements.
+      			<li>Write your HTML.
+    			<li>Apply styles <span class="italic">(from BIGGEST to smallest)</span>
+      			<li>Fix things.
+        	</ul>
+		<p>
+			Below are a couple of simple to use online tools that can help evaluate your website, to quickly validate and provide automated feedback, on whether or not your html or CSS code conform with W3C open standards;
+			<ul>
+				<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">W3 CSS Validation.</a>
+				<li><a href="http://validator.w3.org/#validate_by_input">W3 HTML Validation.</a>
+			</ul>
+ 		 </div>
+	<div class="concept-title">
+		<img src="http://discussions.udacity.com/user_avatar/discussions.udacity.com/ukachi_1185143068/120/1883.png" alt="oops!">
+	</div>
+	</div> 
+ </div>
+</div>
+</body>
+</html>
